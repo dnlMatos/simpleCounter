@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(52, 52, 83);
+    background: rgb(190, 185, 185);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.elementos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.elementos h1{
+    font-size: 2em;
+}
+
+.elementos .botoes{
+    margin-top: 10px;
+}
+
+.elementos button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.elementos button:hover{
+    background: rgb(68, 66, 66);
+    color: white;
+    border: 1px solid rgb(68, 66, 66);
+    transition: all ease-in 0.15s
+}
